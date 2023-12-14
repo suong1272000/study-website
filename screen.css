@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px){
+    .studyList{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .studyStart__info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .studyStart__text{
+        margin: 0 auto;
+        padding-top: 100px;
+        text-align: center;
+        animation-name: fade-in, down-rotate;
+        animation-timing-function: linear;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+    .studyStart__text > h1{
+        font-size: 40px;
+    }
+    .studyStart__text > p{
+        font-size: var(--font-size-midium);
+    }
+}

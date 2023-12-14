@@ -1,0 +1,14 @@
+:root{
+    --primary-cherry-300: #d50037;
+    --primary-blue-300: #68C0C3;
+    --primary-blue-200: #00ADB4;
+    --font-font-black: #000;
+    --font-font-white: #fff;
+    --font-font-100: #999;
+    --font-font-200: #444;
+    --font-size-small: 13px;
+    --font-size-midium: 18px;
+    --font-size-maximum: 30px;
+    --font-weight-600: 600;
+    --font-weight-700: 700;
+}
